@@ -1,0 +1,20 @@
+writer_name: "base_test"
+train_path: "/home/song/git/shinjin2019/acp-2.0/train.txt"
+dev_path: "/home/song/git/shinjin2019/acp-2.0/valid.txt"
+test_path: "/home/song/git/shinjin2019/acp-2.0/test.txt.small"
+vocab_path: "/home/song/git/shinjin2019/acp-2.0/vocab_40000.txt"
+log_path: "/larch/song/shinjin2019/train_log/"
+model_path: "/larch/song/shinjin2019/train_log/base_test/base_test_5.pt"
+result_path: "/home/song/git/shinjin2019/result/"
+device: "cuda"
+epoch: 100 
+method: "base"
+lr: 0.0003
+batch_size: 16
+emb_size: 512
+hidden_size: 512
+encoder_layer_num: 3
+dropout_rate: 0.2
+bidirectional: True
+save_iter: 1
+

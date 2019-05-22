@@ -1,0 +1,13 @@
+32000
+total word number: 8168454, total unknown word: 181690, percentage: 0.02224288708732399
+
+40000
+total word number: 8168454, total unknown word: 135867, percentage: 0.01663313522975094
+
+50000
+total word number: 8168454, total unknown word: 99250, percentage: 0.012150402022218648
+
+
+max_len: 690 avg_len: 10.402149080693675
+
+max_len: 80 trunced_line: 31446
